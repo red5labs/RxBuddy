@@ -16,8 +16,8 @@ define('DB_PASS', '');
 // Email Configuration Options
 
 // Option 1: Gmail SMTP (requires App Password)
-if (!defined('GMAIL_USERNAME')) define('GMAIL_USERNAME', 'gerkin349@gmail.com');  // Your Gmail address
-if (!defined('GMAIL_APP_PASSWORD')) define('GMAIL_APP_PASSWORD', 'FLETC!1fletc'); // Gmail App Password (not regular password)
+if (!defined('GMAIL_USERNAME')) define('GMAIL_USERNAME', 'user@gmail.com');  // Your Gmail address
+if (!defined('GMAIL_APP_PASSWORD')) define('GMAIL_APP_PASSWORD', 'YOUR_PASSWORD_HERE'); // Gmail App Password (not regular password)
 
 // Option 2: Alternative SMTP Server (uncomment and configure as needed)
 // if (!defined('SMTP_HOST')) define('SMTP_HOST', 'smtp.gmail.com');        // SMTP server hostname
@@ -35,7 +35,7 @@ if (!defined('APP_URL')) define('APP_URL', 'http://localhost/rxbuddy'); // Updat
 if (!defined('TIMEZONE')) define('TIMEZONE', 'UTC'); // Set to your timezone
 
 // API Keys
-if (!defined('kqrcrlHegG3Jz4HvuA1JUQfoNKGsU29C8edhVGf2')) define('kqrcrlHegG3Jz4HvuA1JUQfoNKGsU29C8edhVGf2', ''); // Get from https://open.fda.gov/apis/authentication/
+if (!defined('YOUR_OPEN_FDA_API_KEY')) define('YOUR_OPEN_FDA_API_KEY', ''); // Get from https://open.fda.gov/apis/authentication/
 
 // Security Settings
 if (!defined('SESSION_TIMEOUT')) define('SESSION_TIMEOUT', 3600); // 1 hour
